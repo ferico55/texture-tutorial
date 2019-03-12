@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C74ED73D94C028EA2665F5A9 /* libPods-Texture-Tutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C014348FCBD712AAACFF050 /* libPods-Texture-Tutorial.a */; };
+		7710A8A7D19FF1673A87D3EE /* Pods_Texture_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBF8087B3E2B90537008BB7 /* Pods_Texture_Tutorial.framework */; };
 		E5BDD0AB2237B07F00A855B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDD0AA2237B07F00A855B5 /* AppDelegate.swift */; };
 		E5BDD0AD2237B07F00A855B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDD0AC2237B07F00A855B5 /* ViewController.swift */; };
 		E5BDD0B02237B07F00A855B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BDD0AE2237B07F00A855B5 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C014348FCBD712AAACFF050 /* libPods-Texture-Tutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Texture-Tutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBF8087B3E2B90537008BB7 /* Pods_Texture_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Texture_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A120404102819E5D437951 /* Pods-Texture-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture-Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Texture-Tutorial/Pods-Texture-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		CDFB942B529C7D8377A7C97B /* Pods-Texture-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texture-Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Texture-Tutorial/Pods-Texture-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		E5BDD0A72237B07F00A855B5 /* Texture-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texture-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74ED73D94C028EA2665F5A9 /* libPods-Texture-Tutorial.a in Frameworks */,
+				7710A8A7D19FF1673A87D3EE /* Pods_Texture_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		FEB2389D67032BC02B1F5133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3C014348FCBD712AAACFF050 /* libPods-Texture-Tutorial.a */,
+				4FBF8087B3E2B90537008BB7 /* Pods_Texture_Tutorial.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,6 +99,8 @@
 				E5BDD0A32237B07F00A855B5 /* Sources */,
 				E5BDD0A42237B07F00A855B5 /* Frameworks */,
 				E5BDD0A52237B07F00A855B5 /* Resources */,
+				AEE254DF06F1A83345B1E8B7 /* [CP] Embed Pods Frameworks */,
+				A73F90E370AB904E253D6380 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +158,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A73F90E370AB904E253D6380 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Texture-Tutorial/Pods-Texture-Tutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE254DF06F1A83345B1E8B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Texture-Tutorial/Pods-Texture-Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC2346B3DCE8E92D95C1A413 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokopedia.Texture-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -361,7 +401,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tokopedia.Texture-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
