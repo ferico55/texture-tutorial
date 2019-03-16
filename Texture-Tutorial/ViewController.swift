@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AsyncDisplayKit
 
 class ViewController: UIViewController {
 
@@ -15,7 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let vc = IntroductionViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
-

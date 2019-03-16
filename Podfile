@@ -2,12 +2,12 @@ plugin 'cocoapods-static-frameworks'
 plugin 'cocoapods-transitive-dependencies'
 
 use_frameworks!
-static_frameworks
 
 target 'Texture-Tutorial' do
     pod 'RxSwift', '~> 4.1.2'
     pod 'RxCocoa', '~> 4.1.2'
     pod 'NSObject+Rx', '~>2.0.0'
+    pod 'Texture', '2.7'
     pod 'Texture/PINRemoteImage', '~> 2.7'
     pod 'RxCocoa-Texture', :git => 'git@github.com:ferico55/RxCocoa-Texture.git', :branch =>'2.2.2-tkpd'
 end
