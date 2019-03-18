@@ -17,8 +17,5 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        let vc = IntroductionViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
