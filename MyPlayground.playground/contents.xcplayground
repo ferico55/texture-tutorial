@@ -3,10 +3,10 @@
     <pages>
         <page name='1. Introduction'/>
         <page name='2. Layout Spec'/>
+        <page name='2A. Hello Node'/>
         <page name='3. Simple Layout'/>
         <page name='4. Updating Data'/>
         <page name='5. Challenge'/>
         <page name='6. Scroll View'/>
-        <page name='7. More Challenge'/>
     </pages>
 </playground>
