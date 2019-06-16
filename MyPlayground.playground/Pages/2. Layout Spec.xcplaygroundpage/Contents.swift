@@ -1,6 +1,7 @@
 //: [Previous - 1. Introduction](@previous)
 //: ## 2. Layout Spec
 //: ### Think of it like flex layout system, but with more power
+//: [See full docs here](http://texturegroup.org/docs/layout2-layoutspec-types.html)
 
 /*:
 The very simple form of layout spec
